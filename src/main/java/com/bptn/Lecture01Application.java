@@ -1,11 +1,11 @@
 package com.bptn;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+//import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//@SpringBootApplication
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+@SpringBootApplication
+//@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class Lecture01Application {
 
 	public static void main(String[] args) {

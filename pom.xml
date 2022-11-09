@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bptn</groupId>
-	<artifactId>lecture01</artifactId>
+	<artifactId>feedApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lecture01</name>
-	<description>lecture01 project for Spring Boot</description>
+	<name>feedApp</name>
+	<description>feedApp project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
