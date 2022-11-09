@@ -11,7 +11,7 @@ import java.util.List;
 @Repository
 public interface LoginRepository extends JpaRepository<Students, String> {
 	
-	@Query(value = "SELECT * FROM students WHERE studentName = ?1", nativeQuery = true)
+	@Query(value = "SELECT * FROM public Students WHERE studentName = ?1", nativeQuery = true)
 	
 	List<Students> getUserByUserId(String studentName);
 
